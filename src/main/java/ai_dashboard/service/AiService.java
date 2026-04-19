@@ -19,7 +19,7 @@ import java.util.Map;
 @Service
 public class AiService {
 
-    @Value("${ai.api.key}")
+    @Value("${AI_API_KEY}")
     private String apikey;
     public Map<String, Object> askAI(String question,List<Map<String, String>> data) {
         try {
